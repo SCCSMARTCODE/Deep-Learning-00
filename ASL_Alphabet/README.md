@@ -116,7 +116,7 @@ To use the model, follow these steps:
 2. **Install dependencies:**
    
 3. **Download Pre-trained Model:**
-   You can download the pre-trained model parameters from [this link](URL to the model file).
+   You can download the pre-trained model parameters from [https://drive.google.com/file/d/1mkNPKMAe23mBXM7HYj-u_H7U7QVCzt8e/view?usp=sharing](URL to the model file).
 
 4. **Run the model:**
    
