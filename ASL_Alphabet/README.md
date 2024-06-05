@@ -44,8 +44,8 @@ The model architecture is designed to effectively capture the features of ASL im
 - **Optimizer:** Adam with weight decay
 - **Learning Rate:** 0.001
 - **Weight Decay:** 0.85
-- **Batch Size:** 32
-- **Epochs:** 50
+- **Batch Size:** 128
+- **Epochs:** 8
 - **Loss Function:** Cross-Entropy Loss
 - **Mixed Precision Training:** Using `torch.cuda.amp` for faster and more efficient training
 
@@ -116,7 +116,8 @@ To use the model, follow these steps:
 2. **Install dependencies:**
    
 3. **Download Pre-trained Model:**
-   You can download the pre-trained model parameters from [https://drive.google.com/file/d/1mkNPKMAe23mBXM7HYj-u_H7U7QVCzt8e/view?usp=sharing](URL to the model file).
+   You can download the pre-trained model parameters from the following link:
+   - [Pre-trained Model Parameters](https://drive.google.com/file/d/1mkNPKMAe23mBXM7HYj-u_H7U7QVCzt8e/view?usp=sharing)
 
 4. **Run the model:**
    
