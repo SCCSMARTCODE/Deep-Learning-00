@@ -42,10 +42,12 @@ The model architecture is designed to effectively capture the features of ASL im
 ### Training Parameters
 
 - **Optimizer:** Adam with weight decay
-- **Learning Rate:** 0.001
-- **Weight Decay:** 0.85
+- **Learning Rate:** 1e-4
+- **Weight Decay:** 1e-4
 - **Batch Size:** 128
 - **Epochs:** 8
+- **beta1** 0.9
+- **beta2** 0.99
 - **Loss Function:** Cross-Entropy Loss
 - **Mixed Precision Training:** Using `torch.cuda.amp` for faster and more efficient training
 
