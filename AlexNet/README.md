@@ -85,9 +85,10 @@ You can check out the complete training logs and visualizations through this [W&
 ### Saving and Loading the Model
 
 To save the trained model:
+[download parameter](https://drive.google.com/file/d/1bG6YLLMaiFKZYXPUHxg_2WmcdSz7-wqm/view?usp=sharing)
 
 ```python
-torch.save(model.state_dict(), 'alexnet_catsdogs.pth')
+torch.save(model.state_dict(), 'parameter.pth')
 ```
 
 To load the model for inference:
